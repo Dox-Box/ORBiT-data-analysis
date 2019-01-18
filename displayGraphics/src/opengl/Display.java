@@ -109,7 +109,7 @@ public class Display {
 		glfwSetKeyCallback(window, keyCallback = new KeyboardHandler());
 		glfwSetCursorPosCallback(window, mouseCallback = new MouseHandler());
 		glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
-
+		glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
 
 	}
 

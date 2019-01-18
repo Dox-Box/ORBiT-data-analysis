@@ -19,5 +19,5 @@ Planet planet jupiter_tex 0 0 0 0 0 0 10
 #   	x    y   z  r g b
 Light 1000 400 240 1 1 1
 
-Skybox Starfield 0 0 0 0 0 0 19000
-Skybox Starfield 0 0 0 90 180 0 19000
+Skybox blue-sky 0 0 0 0 0 0 19000
+Skybox blue-sky 0 0 0 90 180 0 19000

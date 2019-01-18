@@ -242,6 +242,7 @@ public class Launcher extends JFrame {
 		backdrop.setBounds(0, 0, WIDTH, HEIGHT);
 		frame.getContentPane().add(backdrop);
 
+		frame.setResizable(false);
 
 
 

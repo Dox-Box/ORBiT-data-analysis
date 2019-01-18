@@ -76,8 +76,9 @@ public class Main implements Runnable {
 		setup();
 		running = true;
 		GLFW.glfwInit();
-		objLoader = new AssetImporter();
 		display = new Display(WIDTH,HEIGHT);
+		objLoader = new AssetImporter();
+
 		shader = new BasicShader();
 		objRender = new RenderMaster(display,shader);
 		mapLoader = new Interpreter();
