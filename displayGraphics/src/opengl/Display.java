@@ -42,6 +42,7 @@ public class Display {
 	private long window;
 	private int WIDTH;
 	private int HEIGHT;
+	private final String TITLE;
 	private int sWIDTH;
 	private int sHEIGHT;
 	private boolean bool_pause;
@@ -54,12 +55,14 @@ public class Display {
 	public Display() {
 		WIDTH = 900;
 		HEIGHT = 900;
+		TITLE = "";
 		init();
 	}
 
-	public Display(int width, int height) {
+	public Display(int width, int height, String title) {
 		WIDTH  = width;
 		HEIGHT = height;
+		this.TITLE = title;
 		sWIDTH = WIDTH;
 		sHEIGHT = HEIGHT;
 		shouldExit = false;
@@ -82,7 +85,7 @@ public class Display {
 
 
 			// Create window
-			window = glfwCreateWindow(WIDTH, HEIGHT, "0.1.4", NULL, NULL);
+			window = glfwCreateWindow(WIDTH, HEIGHT, TITLE, NULL, NULL);
 			if ( window == NULL )
 				throw new RuntimeException("Display failed to launch!!");
 

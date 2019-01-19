@@ -76,7 +76,7 @@ public class Main implements Runnable {
 		setup();
 		running = true;
 		GLFW.glfwInit();
-		display = new Display(WIDTH,HEIGHT);
+		display = new Display(WIDTH, HEIGHT, title);
 		objLoader = new AssetImporter();
 
 		shader = new BasicShader();

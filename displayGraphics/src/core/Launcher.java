@@ -235,6 +235,12 @@ public class Launcher extends JFrame {
 		title.setIcon(new ImageIcon("res/title.png"));
 		title.setBounds(WIDTH/3, 80, 300, 100);
 		frame.getContentPane().add(title);
+		
+		JLabel subTitle = new JLabel("Realtime Rendering");
+		subTitle.setFont(new Font("Monospaced", Font.PLAIN, 22));
+		subTitle.setForeground(new Color(0.7f, 0.7f, 0.7f));
+		subTitle.setBounds(WIDTH/3 + 70, 145, 360, 50);
+		frame.getContentPane().add(subTitle);
 
 		/* background for menu */
 		JLabel backdrop = new JLabel("");
