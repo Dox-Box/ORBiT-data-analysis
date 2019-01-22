@@ -1,4 +1,4 @@
-# ORBIT Graphics
+# ORBiT Graphics
 
 
 
