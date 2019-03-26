@@ -6,14 +6,22 @@
 
 # objects     
 # raw	 texture   x y z rx ry rz scale
-Object dragon asteroid 0 100 0 0 0 0 40
+Object asteroid gray -1000 0 300 0 0 0 40
+Object asteroid gray 1000 0 300 0 0 0 40
+
+
+
+
+
 
 
 
 
 # physics data for each object (sequential order)
 # mass xV yV zV aX aY aZ 
-Phy 1 0 0 0 0 1 0
+Phy 1 220 0 0 1 1 0
+Phy 14 0 0 0 0 3 5
+
 
 # lighting / other
 #   	x    y   z  r g b
